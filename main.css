@@ -75,7 +75,7 @@ a {
   width: 75vw;
   height: 400px;
   margin: auto;
-  font-size: 30px;
+  font-size: 25px;
 }
 #pg3{
   display: flex;
@@ -140,4 +140,11 @@ margin-top: 30px;
   background-color:black;
   color: cyan;
   font-size: 22px;
+}
+
+.portfolio h1 {
+
+ text-align: center;
+  font-size: 40px;
+  color: blue;
 }

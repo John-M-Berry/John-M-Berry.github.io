@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontAwesome.css">
+    <link rel="stylesheet" href="main.css">
+    <title>John Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu"><a href="#pg1" class="btn btn-info btn-lg">Top</a></div>
+        <div class="menu"><a href="#pg2" class="btn btn-info btn-lg">About</a></div>
+        <div class="menu"><a href="#pg3" class="btn btn-info btn-lg">Portfolio</a></div>
+        <div class="menu red"><a href="#pg4" class="btn btn-info btn-lg">Contact</a></div>
+    </div>
+
+    <div id="pg1"></div>
+    <div class="hdr">
+        <div class="photo"><img src="images/JMB.jpg" alt="John M Berry">
+        </div>
+        <div id="circle">
+            <p class="name">John M Berry</p>
+            <p class="info">Owner of Bluegrass IT & Computer Services in Glasgow, KY</p><br>
+            <p class="info">Web Development student at</p>
+            <p class="info"><a style="color: navy;"
+                    href="https://sites.google.com/barren.kyschools.us/bcskillsdevelopmentacademy"
+                    target="_blank">Barren County
+                    Skills Development Academy.</a></p>
+        </div>
+    </div>
+
+    <div class="about">
+        <div id="pg2">
+
+            Electronic technician for 21 years. Co-owner Ultratech Computer Systems from 1997-2012 offering Home and
+            Business
+            maintenance and service.
+            <br>Started Bluegrass IT & Computer Services in 2013 primarily focusing on Business and Corporate related IT
+            networks, maintenance and service.
+            <br>Having enjoyed doing some website design in the past, I am now enrolled in the Web Development Cohort
+            Program at BC Skills. With completion of this class, I am looking forward to new opportunities by adding
+            Web-Site development to my list of services in the latter stages of my career.
+            <div class="me">
+                <div class="bowl"><img src="images/bowling.jpg" alt="Bowling"></div>
+                <br>I am an avid bowler and a big fan of minor-league Baseball. I also really enjoy music, especially
+                while adding to my vinyl record collection.
+                <div class="bball"><img src="images/baseball2.jpg" alt="Baseball"></div>
+            </div>
+        </div>
+    </div>
+
+    </a>
+    <div class="portfolio">
+        <div id="pg3">
+            <p>Tecnologies Learned Thus Far:</p>
+            <br>
+            <div class="html"><i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+
+            <div class="css"><i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+
+            <div class="boot"><i class="fab fa-bootstrap"></i>
+                <p>Bootstrap</p>
+            </div>
+
+            <div class="css"><i class="fab fa-sass"></i>
+                <p>SASS</p>
+            </div>
+
+            <div class="js"><i class="fab fa-js-square"></i>
+                <p>Javascript</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="pg4">
+        <h1>Contact:</h1>
+        <br>
+        <h2>Email: johnb@bluegrassitc.com</h2>
+        <br>
+
+
+        <div class="social-media">
+            <div class="twit" title="Twitter"><a href="https://twitter.com/mjrkong" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a></div>
+            <div class="face" title="Facebook"><a href="https://www.facebook.com/mjr.kong/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a></div>
+            <div class="git" title="Github"><a href="https://github.com/John-M-Berry" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                </a></div>
+            <div class="lnkd" title="LinkedIn"><a href="https://www.linkedin.com/in/john-m-berry/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a></div>
+            <div class="disc" title="Discogs"><a href="https://www.discogs.com/user/MjrKong42" target="_blank">
+                    <img alt="John" src="images/vinyl.png" width="60" height="60">
+                </a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

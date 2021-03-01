@@ -104,12 +104,12 @@ a {
   /* padding-top: 5px; */
   align-items: center;
   margin-left: 15px;
-  height:125px;
-  width:250px;
+  height:200px;
+  width:200px;
   border-radius: 20px;
   color: navy;
   /* Projects Font */
-  font-size: 27px;
+  font-size: 2vw;
 }
 
 .projects {

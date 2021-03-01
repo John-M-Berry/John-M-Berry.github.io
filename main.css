@@ -78,6 +78,11 @@ a {
   margin: auto;
   font-size: 28px;
 }
+
+.bowl, .bball {
+  padding: 15px;;
+}
+
 #pg3{
   padding-top: 75px;
   
@@ -111,6 +116,7 @@ a {
 .projects img {
   height:125px;
    width:125px;
+   border-radius: 15px;
 }
 
 .resume {

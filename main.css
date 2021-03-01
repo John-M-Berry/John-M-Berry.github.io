@@ -89,6 +89,8 @@ a {
 }
 
 .video, .photosite, .lepain {
+  
+  padding-top: 15px;
   border: 2px solid navy;
   margin-left: 15px;
   height:125px;

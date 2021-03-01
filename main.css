@@ -37,6 +37,7 @@ body {
 
 h1 {
   font-style: bold;
+  color: navy;
 }
 
 p {
@@ -78,18 +79,42 @@ a {
   font-size: 25px;
 }
 #pg3{
+  padding-top: 100px;
+  min-height: 100vh;
+  width: 75vw;
+  height: 400px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.video, .photosite, .lepain {
+  border: 2px solid navy;
+  margin-left: 15px;
+  height:125px;
+  border-radius: 20px;
+  color: navy;
+}
+
+.projects {
+  display: flex;
+  text-align: center;
+  color:navy;
+  align-items: center;
+  height:250px;
+}
+
+.projects img {
+  height:125px;
+   width:125px;
+}
+
+.skills {
   display: flex;
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  padding-top: 100px;
-  min-height: 100vh;
-  width: 70vw;
-  height: 400px;
-  margin: auto;
-  font-size: 30px;
-
 }
+
 #pg4{
   padding-top: 100px;
   text-align: center;
@@ -143,8 +168,7 @@ margin-top: 30px;
 }
 
 .portfolio h1 {
-
- text-align: center;
+  text-align: center;
   font-size: 40px;
-  color: blue;
+  color: navy;
 }

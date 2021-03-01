@@ -76,7 +76,7 @@ a {
   width: 75vw;
   height: 400px;
   margin: auto;
-  font-size: 25px;
+  font-size: 30px;
 }
 #pg3{
   padding-top: 100px;
@@ -84,7 +84,8 @@ a {
   width: 75vw;
   height: 400px;
   margin: auto;
-  font-size: 27px;
+  /* Icon Labels Font */
+  font-size: 26px;
 }
 
 .video, .photosite, .lepain {
@@ -93,6 +94,7 @@ a {
   height:125px;
   border-radius: 20px;
   color: navy;
+  /* Projects Font */
   font-size: 27px;
 }
 

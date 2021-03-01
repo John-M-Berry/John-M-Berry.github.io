@@ -84,16 +84,16 @@ a {
   width: 75vw;
   height: 400px;
   margin: auto;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .video, .photosite, .lepain {
   border: 2px solid navy;
   margin-left: 15px;
-  height:150px;
+  height:125px;
   border-radius: 20px;
   color: navy;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .projects {

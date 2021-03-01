@@ -76,10 +76,11 @@ a {
   width: 75vw;
   height: 400px;
   margin: auto;
-  font-size: 30px;
+  font-size: 28px;
 }
 #pg3{
-  padding-top: 100px;
+  padding-top: 75px;
+  
   min-height: 100vh;
   width: 75vw;
   height: 400px;
@@ -89,9 +90,7 @@ a {
 }
 
 .video, .photosite, .lepain {
-  
   padding-top: 15px;
-  border: 2px solid navy;
   margin-left: 15px;
   height:125px;
   border-radius: 20px;
@@ -104,13 +103,21 @@ a {
   display: flex;
   text-align: center;
   color:navy;
-  align-items: center;
+  /* align-items: center; */
   height:250px;
+  margin-bottom: 20px;
 }
 
 .projects img {
   height:125px;
    width:125px;
+}
+
+.resume {
+  height: 125px;
+  width: 350px;
+  margin: auto;
+  color: navy;
 }
 
 .skills {

@@ -94,10 +94,18 @@ a {
   font-size: 26px;
 }
 
+#pg3 h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: navy;
+}
 .video, .photosite, .lepain {
-  padding-top: 15px;
+  /* padding-top: 5px; */
+  align-items: center;
   margin-left: 15px;
   height:125px;
+  width:250px;
   border-radius: 20px;
   color: navy;
   /* Projects Font */
@@ -107,8 +115,9 @@ a {
 .projects {
   display: flex;
   text-align: center;
+  justify-content: space-around;
   color:navy;
-  /* align-items: center; */
+  align-items: center;
   height:250px;
   margin-bottom: 20px;
 }
@@ -117,9 +126,12 @@ a {
   height:125px;
    width:125px;
    border-radius: 15px;
+   padding-left: 5px;
 }
 
 .resume {
+  padding-top: 75px;
+  padding-bottom: 75px;
   height: 125px;
   width: 350px;
   margin: auto;
@@ -185,8 +197,3 @@ margin-top: 30px;
   font-size: 22px;
 }
 
-.portfolio h1 {
-  text-align: center;
-  font-size: 40px;
-  color: navy;
-}

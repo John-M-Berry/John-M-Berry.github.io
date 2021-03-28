@@ -3,9 +3,9 @@ body {
   z-index: 2;
 }
 
-#b1 {
+/* #b1 {
   on
-}
+} */
 
 .container {
   height: 75px;
@@ -105,6 +105,11 @@ a {
   font-size: 20px;
 }
 
+#aboutme {
+  text-align: center;
+  list-style-position: inside;
+}
+
 .bowl, .bball {
   /* height: 150px;
   width: 150px; */
@@ -128,7 +133,7 @@ a {
   font-size: 35px;
   color: navy;
 }
-.video, .photosite, .lepain, .tmgr {
+.video, .photosite, .lepain, .tmgr, .pwgen {
   /* padding-top: 5px; */
   /* border: 5px solid greenyellow; */
   justify-content: center;
@@ -144,7 +149,7 @@ a {
 
 .projects {
   display: flex;
-  align-content: flex-end;
+  align-content: bottom;
   text-align: center;
   justify-content: space-around;
   color:navy;
@@ -163,7 +168,7 @@ a {
 }
 
 .resume {
-  /* padding-top: 75px; */
+  padding-top: 5px;
   /* padding-bottom: 75px; */
   align-content: center;
   text-align: center;
